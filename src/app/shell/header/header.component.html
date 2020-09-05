@@ -6,7 +6,7 @@
     <span class="title">{{title}}</span>
   </div>
   <div fxHide.lt-md>
-    <a class="brand" href="https://github.com/ngx-rocket" translate>APP_NAME</a>
+    <a class="brand" href="/" translate>APP_NAME</a>
     <button mat-button routerLink="/regiao" routerLinkActive="active">
       <mat-icon>home</mat-icon>
       <span translate>Na sua regiao</span>
@@ -24,10 +24,10 @@
   <mat-menu #userMenu="matMenu">
     <mat-list>
       <mat-list-item>
-        <span translate>Logged in as</span>&nbsp;<b>{{username}}</b>
+        <span translate>Logada como</span>&nbsp;<b>{{username}}</b>
       </mat-list-item>
       <mat-divider></mat-divider>
     </mat-list>
-    <button mat-menu-item (click)="logout()" translate>Logout</button>
+    <button mat-menu-item (click)="logout()" translate>Sair</button>
   </mat-menu>
 </mat-toolbar>

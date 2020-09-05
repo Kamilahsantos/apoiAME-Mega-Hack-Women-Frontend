@@ -17,7 +17,6 @@ export class ShellComponent implements OnInit, OnDestroy {
   constructor(private media: MediaObserver) { }
 
   ngOnInit() {
-    // Automatically close side menu on screens > sm breakpoint
     this.media
       .asObservable()
       .pipe(
