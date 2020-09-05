@@ -20,7 +20,7 @@ import { AgmCoreModule } from '@agm/core';
     MaterialModule,
     HomeRoutingModule,
     AgmCoreModule.forRoot({
-      apiKey: 'sua chave',
+      apiKey: 'AIzaSyCELWEB3gts60cMp_9ctiXV4wKyssKlv_M',
       libraries: ['places']
     }),
   ],

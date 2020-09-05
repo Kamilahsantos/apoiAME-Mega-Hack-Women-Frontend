@@ -16,7 +16,6 @@ describe('CredentialsService', () => {
   });
 
   afterEach(() => {
-    // Cleanup
     localStorage.removeItem(credentialsKey);
     sessionStorage.removeItem(credentialsKey);
   });

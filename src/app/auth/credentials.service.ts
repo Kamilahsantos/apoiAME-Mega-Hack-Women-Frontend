@@ -1,17 +1,13 @@
 import { Injectable } from '@angular/core';
 
 export interface Credentials {
-  // Customize received credentials here
   username: string;
   token: string;
 }
 
 const credentialsKey = 'credentials';
 
-/**
- * Provides storage for authentication credentials.
- * The Credentials interface should be replaced with proper implementation.
- */
+
 @Injectable({
   providedIn: 'root'
 })

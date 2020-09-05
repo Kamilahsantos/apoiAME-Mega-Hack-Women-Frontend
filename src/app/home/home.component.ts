@@ -15,12 +15,9 @@ export class HomeComponent implements OnInit {
   longitude = -73.935242;
   zoom:number;
 
-  isLoading = false;
 
-  constructor(private quoteService: QuoteService) { }
 
   ngOnInit() {
-    this.isLoading = true;
     this.setCurrentLocation();
 
     
@@ -34,5 +31,6 @@ export class HomeComponent implements OnInit {
       });
     }
   }
+  
 
 }

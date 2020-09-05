@@ -22,7 +22,7 @@ import { AgmCoreModule } from '@agm/core';
   imports: [
     BrowserModule,
     AgmCoreModule.forRoot({
-      apiKey: 'sua chave ',
+      apiKey: 'AIzaSyCELWEB3gts60cMp_9ctiXV4wKyssKlv_M',
       libraries: ['places']
     }),
     ServiceWorkerModule.register('./ngsw-worker.js', { enabled: environment.production }),
