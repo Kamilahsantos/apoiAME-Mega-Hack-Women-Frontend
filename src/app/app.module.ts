@@ -15,10 +15,16 @@ import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AgmCoreModule } from '@agm/core';
+
 
 @NgModule({
   imports: [
     BrowserModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'sua chave ',
+      libraries: ['places']
+    }),
     ServiceWorkerModule.register('./ngsw-worker.js', { enabled: environment.production }),
     FormsModule,
     HttpClientModule,
