@@ -2,12 +2,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { extract } from '@app/i18n';
-import { HomeComponent } from './home.component';
+import { NewUser } from './newuser.component';
 import { Shell } from '@app/shell/shell.service';
 
 const routes: Routes = [
   Shell.childRoutes([
-    { path: 'regiao', component: HomeComponent, data: { title: extract('Regiao') } }
+    { path: '', redirectTo: '/create', pathMatch: 'full' },
+    { path: 'create', component: NewUser, data: { title: extract('NewUser') } }
   ])
 ];
 
@@ -16,4 +17,4 @@ const routes: Routes = [
   exports: [RouterModule],
   providers: []
 })
-export class HomeRoutingModule { }
+export class NewUserRoutingModule { }
