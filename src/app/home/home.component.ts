@@ -1,6 +1,23 @@
 import { Component, OnInit , ViewChild, ElementRef, NgZone} from '@angular/core';
 import { finalize } from 'rxjs/operators';
 import { MapsAPILoader } from '@agm/core';
+import {MatTableDataSource} from '@angular/material/table';
+
+export interface NetworkInformations {
+  address: string;
+  area: string;
+  companyName: string;
+  job: string;
+  jobDescription: string;
+  name: string
+
+}
+
+const ELEMENT_DATA: NetworkInformations[] = [
+  {address: 'centro', area: 'artesanato', companyName: 'artesanato da dona maria', job: 'atendente',jobDescription: 'atende clientes',name: 'maria ' },
+  {address: 'capao redondo', area: 'alimentacao', companyName: 'sabor do bairro', job: 'cozinheira',jobDescription: 'preparacao de pfs',name: 'vilma ' },
+
+];
 
 
 
@@ -11,6 +28,13 @@ import { MapsAPILoader } from '@agm/core';
 })
 export class HomeComponent implements OnInit {
 
+  displayedColumns: string[] = ['area', 'companyName', 'job', 'jobDescription' ];
+  dataSource = new MatTableDataSource(ELEMENT_DATA);
+
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+  }
   title: string = 'AGM project';
   latitude = 45.730610;
   longitude = -73.935242;
