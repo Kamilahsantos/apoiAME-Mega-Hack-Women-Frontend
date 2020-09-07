@@ -71,8 +71,8 @@ export class HomeComponent implements OnInit {
 
   markerDragEnd($event: MouseEvent) {
     console.log($event);
-    this.latitude = $event.coords.lat;
-    this.longitude = $event.coords.lng;
+  //  this.latitude = $event.coords.lat;
+    //this.longitude = $event.coords.lng;
     this.getAddress(this.latitude, this.longitude);
   }
 
