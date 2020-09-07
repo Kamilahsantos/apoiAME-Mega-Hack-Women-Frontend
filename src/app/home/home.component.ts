@@ -21,6 +21,7 @@ const ELEMENT_DATA: NetworkInformations[] = [
 
 
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
