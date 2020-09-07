@@ -1,6 +1,6 @@
 import { Component, OnInit , ViewChild, ElementRef, NgZone} from '@angular/core';
 import { finalize } from 'rxjs/operators';
-import { MapsAPILoader, MouseEvent } from '@agm/core';
+import { MapsAPILoader } from '@agm/core';
 
 
 
