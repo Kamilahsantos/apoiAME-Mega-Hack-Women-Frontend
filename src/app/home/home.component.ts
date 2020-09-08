@@ -16,6 +16,7 @@ export interface NetworkInformations {
 const ELEMENT_DATA: NetworkInformations[] = [
   {address: 'centro', area: 'artesanato', companyName: 'artesanato da dona maria', job: 'atendente',jobDescription: 'atende clientes',name: 'maria ' },
   {address: 'capao redondo', area: 'alimentacao', companyName: 'sabor do bairro', job: 'cozinheira',jobDescription: 'preparacao de pfs',name: 'vilma ' },
+  {address: 'campo limpo', area: 'design', companyName: 'designdelas', job: 'designer jr',jobDescription: 'criar logos',name: 'diana ' },
 
 ];
 
@@ -36,7 +37,6 @@ export class HomeComponent implements OnInit {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
-  title: string = 'AGM project';
   latitude = 45.730610;
   longitude = -73.935242;
   zoom:number;
