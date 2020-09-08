@@ -1,5 +1,6 @@
 
 # <center>apoiaME</center>
+<img src="https://img.shields.io/badge/Front End-Angular-f55247"/>
 
 ## 💡 Proposta
 <i>Plataforma formada por rede de conexão entre mulheres empreendedoras e mulheres em busca de uma oportunidade para reconstruirem suas vidas</i>
@@ -21,7 +22,7 @@
   - Oferte vagas de trabalho e solicite prestação de serviços
   
   
-  - <b> Crescimento profissional </b>
+ - <b> Crescimento profissional </b>
    - Recomendação de cursos e conteúdos
    - Troca de experiências
    - Contatos úteis para seu crescimento
@@ -40,9 +41,10 @@
   
 
  ## 💪 Time
-  - Kamila Santos Oliveira (Desenvolvedora) 
-  - Andreza Procopio da Silva (Business)
-  - Jessica (Business/Dev)
-  - Mariana Roman Oliveira (UX)
-  - Luana Tavares (Marketing)
+   - [Andreza Procopio da Silva (Business)](https://www.linkedin.com/in/andreza-silva-4aa818147/)
+   - [Jessica (Business)](https://www.linkedin.com/in/jessicosta94/)
+  - [Kamila Santos Oliveira (Desenvolvedora)](https://www.linkedin.com/in/kamila-santos-oliveira/) 
+  - [Luana Tavares (Marketing)](https://www.linkedin.com/in/luanatavares/)
+  - [Mariana Roman Oliveira (UX)](https://www.linkedin.com/in/mariana-roman-a2612864/)
+
 
