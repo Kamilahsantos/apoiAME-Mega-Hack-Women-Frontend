@@ -42,7 +42,7 @@
 
  ## 💪 Time
    - [Andreza Procopio da Silva (Business)](https://www.linkedin.com/in/andreza-silva-4aa818147/)
-   - [Jessica (Business)](https://www.linkedin.com/in/jessicosta94/)
+   - [Jessica Costa (Business)](https://www.linkedin.com/in/jessicosta94/)
   - [Kamila Santos Oliveira (Desenvolvedora)](https://www.linkedin.com/in/kamila-santos-oliveira/) 
   - [Luana Tavares (Marketing)](https://www.linkedin.com/in/luanatavares/)
   - [Mariana Roman Oliveira (UX)](https://www.linkedin.com/in/mariana-roman-a2612864/)
